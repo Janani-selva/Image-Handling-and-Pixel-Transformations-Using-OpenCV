@@ -1,9 +1,5 @@
 # Image-Handling-and-Pixel-Transformations-Using-OpenCV 
 
-## Program Developed By:
-- **Name:** JANANI S
-- **Register Number:** 212224230103
-
 ## AIM:
 Write a Python program using OpenCV that performs the following tasks:
 
@@ -35,9 +31,14 @@ Display the original, lower contrast, and higher contrast images.
 Split the image (boy.jpg) into B, G, R components and display the channels
 
 
+## Program Developed By:
+- **Name:** JANANI S
+- **Register Number:** 212224230103
+
+
 
 ```python
-#import cv2
+import cv2
 import matplotlib.pyplot as plt
 img = cv2.imread('q1.jpg', cv2.IMREAD_COLOR)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
